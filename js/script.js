@@ -192,7 +192,8 @@ window.addEventListener('DOMContentLoaded', () => {
         'menu__item'
     ).render();
 
-    //Бэк-часть
+    // Forms
+
     const forms = document.querySelectorAll('form');
     const message = {
         loading: 'Загрузка...',
@@ -240,5 +241,4 @@ window.addEventListener('DOMContentLoaded', () => {
             });
         });
     }
-
 });
